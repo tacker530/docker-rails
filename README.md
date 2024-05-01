@@ -1,18 +1,24 @@
-## 公式ドキュメント
-https://docs.docker.com/compose/rails/
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## RUN
+Things you may want to cover:
 
-+ git clone https://github.com/oshimamasara/docker-rails-mac-Linux.git
-+ cd docker-rails-mac-Linux
-+ docker-compose run web rails new . --force --no-deps --database=postgresql
-+ docker-compose build
-+ Edit config/database.yml
-+ docker-compose run web rake db:create
-+ docker-compose up   or    docker-compose up -d
+* Ruby version
 
-check  localhost:3000
+* System dependencies
 
-+ [YouTube Ubuntu](https://youtu.be/cGJUJ2FiAz4)
-+ [YouTube Mac](https://youtu.be/M9vIBIoPznE)
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
